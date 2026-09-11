@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Dear Data - Saludos</title>
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/p5@2.3.1/lib/p5.js"></script>
+</head>
+
+<body>
+  <div class="contenedor">
+    <div class="lienzo-wrapper">
+      <div id="p5-container"></div>
+    </div>
+
+    <div class="controles">
+      <input type="range" id="scrubber" min="0" max="0" value="0" step="1">
+      <button id="btn-play-pausa" class="boton boton-primario">Pausar</button>
+      <button id="btn-grabar" class="boton boton-primario">
+        <span class="etiqueta">Iniciar grabación</span>
+        <span class="indicador"></span>
+      </button>
+
+      <button id="btn-detener" class="boton boton-secundario" disabled>
+        Detener y descargar
+      </button>
+    </div>
+  </div>
+  <script src="datos.js"></script>
+  <script src="esc_elipses.js"></script>
+  <script src="esc_anillo.js"></script>
+  <script src="esc_atomo.js"></script>
+  <script src="esc_atomo_texto.js"></script>
+  <script src="esc_explosion_2.js"></script>
+  <script src="esc_resalta_x.js"></script>
+  <script src="esc_resalta_c.js"></script>
+  <script src="esc_tipo_saludo.js"></script>
+  <script src="esc_quien_inicia.js"></script>
+  <script src="esc_texto.js"></script>
+  <script src="esc_final_2.js"></script>s
+  <script src="esc_pausa.js"></script>
+  <script src="sketch.js"></script>
+</body>
+
+</html>
