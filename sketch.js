@@ -57,7 +57,7 @@ let duracionTotal = 0;
 let arrastrandoScrubber = false;
 
 async function setup() {
-  let miCanvas = createCanvas(1920, 1920);
+  let miCanvas = createCanvas(800, 800);
   miCanvas.parent('p5-container');
   miCanvas.style('display', 'block');
 
